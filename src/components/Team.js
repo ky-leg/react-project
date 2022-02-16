@@ -1,11 +1,9 @@
 import React from "react";
-import "./Home.css";
+// import "./Home.css";
 import Card from "./Card"
 
 export default function Team({cards, handleDelete}) {
-    console.log(cards.map(player => {
-        return player.img1
-    }))
+
     const displayCards = cards.map(player => {
         return (
             <Card 
@@ -19,6 +17,7 @@ export default function Team({cards, handleDelete}) {
             handler={handleDelete}/>            
         )
     })
+
     return (
         <React.Fragment>
             <h1>Your Team!</h1>
@@ -26,7 +25,5 @@ export default function Team({cards, handleDelete}) {
                 {displayCards}
             </div>
         </React.Fragment>
-    )
-    
-    
+    ) 
 }

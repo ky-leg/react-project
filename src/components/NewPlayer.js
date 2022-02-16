@@ -1,12 +1,11 @@
 import React, {useState} from "react";
 import Card from "./Card";
-import "./Home.css";
+
 
 export default function NewPlayer({handleAdd}) {
     const [firstName, setFirstName] = useState('')
     const [lastName, setLastName] = useState('')
     const [newPlayer, setNewPlayer] = useState('')
-    
     
     function handleSubmit(e){
         e.preventDefault()
@@ -20,9 +19,6 @@ export default function NewPlayer({handleAdd}) {
         .catch(() => alert('Search not valid, try again!'))
     }
    
-
-    console.log(newPlayer)
-    
     return (
         <React.Fragment>
             <h1>Let's Add Some More Players!</h1>

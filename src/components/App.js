@@ -2,7 +2,6 @@
 import '../App.css';
 import React, {useState, useEffect} from "react";
 import {Routes, Route} from 'react-router-dom';
-// import Logon from "./Logon"
 import Navbar from './Navbar';
 import Home from './Home';
 import Team from './Team';
@@ -10,14 +9,13 @@ import NewPlayer from './NewPlayer';
 
 function App() {
   const [page, setPage] = useState("/")
-  // const [activeUser, setActiveUser] = useState("")
   const [cards, setCards] = useState([])
   
-    useEffect(() => {
-        fetch('http://localhost:3001/cards')
-        .then(r => r.json())
-        .then(r => setCards(r))
-    }, [])
+  useEffect(() => {
+      fetch('http://localhost:3001/cards')
+      .then(r => r.json())
+      .then(r => setCards(r))
+  }, [])
 
   function handleDelete(id, name){
     const newCards = cards.filter(card => {
@@ -58,9 +56,6 @@ function App() {
     }
   }
 
-   
-
-
   return (
     <div className="App container py-4">
       <Navbar onChangePage={setPage}/>
@@ -68,9 +63,7 @@ function App() {
         <Route path="/Home" element={<Home />}/>
         <Route path="/Team" element={<Team cards={cards} setCards={setCards} handleDelete={handleDelete} />}/>
         <Route path="/NewPlayer" element={<NewPlayer handleAdd={handleAdd}/>}/>
-        {/* <Route path="/Logon" element={<Logon users={users} activeUser={activeUser} setActiveUser={setActiveUser}/>}/> */}
       </Routes>
-      {/* <Logon users={users} activeUser={activeUser} setActiveUser={setActiveUser}/> */}
     </div>
   );
 }

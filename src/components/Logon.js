@@ -1,41 +1,33 @@
 import React, {useState} from 'react';
 
-
 function Logon({users, activeUser, setActiveUser}) {
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
-    const [hidePassword, setHidepassword]= useState(true)
-    
+    const [hidePassword, setHidepassword]= useState(true)   
 
-    // console.log("activerUser is", activeUser)
-
-    console.log("users is", users)
-
-    
-
-function validateForm(){
-    return username.length > 0 && password.length > 0;
-}
-
-function handleSubmit(event){
-    event.preventDefault();
-    console.log(username,password)
-    const userLogon = users.find(user => 
-        user.username === username && user.password === password
-    )
-
-    if (userLogon){
-        setActiveUser(userLogon)
+    function validateForm(){
+        return username.length > 0 && password.length > 0;
     }
-    if (!userLogon){
-        window.alert("Invalid username or password. Please try again.");
-        setActiveUser()
-    }
-}
 
-function handleClick(event){
-    setHidepassword(!hidePassword)
-}
+    function handleSubmit(event){
+        event.preventDefault();
+        console.log(username,password)
+        const userLogon = users.find(user => 
+            user.username === username && user.password === password
+        )
+
+        if (userLogon){
+            setActiveUser(userLogon)
+        }
+        if (!userLogon){
+            window.alert("Invalid username or password. Please try again.");
+            setActiveUser()
+        }
+    }
+
+    function handleClick(event){
+        setHidepassword(!hidePassword)
+    }
     if(activeUser){
         return (
             <button onClick={(e) => setActiveUser()}>Log Out!</button>

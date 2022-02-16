@@ -1,8 +1,7 @@
-import React, {useState} from "react";
+import React from "react";
 
 
 function Card({name, club, country, img1, img2, isNew, id, uniqueId, handler}){
-    console.log(name,club,country)
 
     function handleEvent(){
         console.log(`is new is ${isNew} and name is ${name}`)
@@ -17,12 +16,8 @@ function Card({name, club, country, img1, img2, isNew, id, uniqueId, handler}){
     return(
         <div className="ui card">
             <div className="ui slide reveal image">
-                <img src={img1} alt="pic1" className="visible content" 
-                
-                />
-                <img src={img2} alt="pic2" className="hidden content" 
-                // width ="200" height="200"
-                />
+                <img src={img1} alt="pic1" className="visible content"/>
+                <img src={img2} alt="pic2" className="hidden content"/>
             </div>
             <div className="content">
                 <a className="header">{name}</a>
@@ -34,14 +29,12 @@ function Card({name, club, country, img1, img2, isNew, id, uniqueId, handler}){
             </div>
             <div className="extra content">
                 <button 
-                    className={isNew? "ui green button":"ui red button"} 
-                    onClick={handleEvent}
-                >
+                className={isNew? "ui green button":"ui red button"} 
+                onClick={handleEvent}>
                 {isNew? 'Add Player':'Remove Player'}
                 </button>
             </div>
         </div>
-        
     )
 }
 

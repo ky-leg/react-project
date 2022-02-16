@@ -28,22 +28,31 @@
       "id": 3
     },
     {
-      "name": "Lionel Messi",
-      "club": "Paris SG",
-      "country": "Argentina",
-      "img1": "https://www.thesportsdb.com/images/media/player/thumb/ino2iw1600892848.jpg",
-      "img2": "https://www.thesportsdb.com/images/media/player/render/16x6771630310510.png",
-      "uniqueId": "34146370",
+      "name": "Sergiño Dest",
+      "club": "Barcelona",
+      "country": "United States",
+      "img1": "https://www.thesportsdb.com/images/media/player/thumb/ej3qu91601664182.jpg",
+      "img2": "https://www.thesportsdb.com/images/media/player/render/lev2611642292035.png",
+      "uniqueId": "34170357",
       "id": 4
     },
     {
-      "name": "Gabriel Slonina",
-      "club": "Chicago Fire",
-      "country": "USA",
-      "img1": "https://www.thesportsdb.com/images/media/player/thumb/ipb9mg1641469245.jpg",
-      "img2": null,
-      "uniqueId": "34184096",
+      "name": "Declan Rice",
+      "club": "West Ham",
+      "country": "England",
+      "img1": "https://www.thesportsdb.com/images/media/player/thumb/t6gdi41509109407.jpg",
+      "img2": "https://www.thesportsdb.com/images/media/player/render/aml19t1584102028.png",
+      "uniqueId": "34161584",
       "id": 5
+    },
+    {
+      "name": "Alphonso Davies",
+      "club": "Bayern Munich",
+      "country": "Canada",
+      "img1": "https://www.thesportsdb.com/images/media/player/thumb/ppqrt31578151203.jpg",
+      "img2": "https://www.thesportsdb.com/images/media/player/render/wu5b2v1558892551.png",
+      "uniqueId": "34164270",
+      "id": 6
     }
   ]
 }
