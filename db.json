@@ -1,0 +1,49 @@
+{
+  "cards": [
+    {
+      "name": "Christian Pulisic",
+      "club": "Chelsea",
+      "country": "United States",
+      "img1": "https://www.thesportsdb.com/images/media/player/thumb/kridhq1629290690.jpg",
+      "img2": "https://www.thesportsdb.com/images/media/player/render/0p1z8a1564917525.png",
+      "uniqueId": "34163470",
+      "id": 1
+    },
+    {
+      "name": "Weston McKennie",
+      "club": "Juventus",
+      "country": "United States",
+      "img1": "https://www.thesportsdb.com/images/media/player/thumb/k5lx3p1621545726.jpg",
+      "img2": "https://www.thesportsdb.com/images/media/player/render/67d9191621545854.png",
+      "uniqueId": "34163483",
+      "id": 2
+    },
+    {
+      "name": "Yunus Musah",
+      "club": "Valencia",
+      "country": "United Kingdom",
+      "img1": "https://www.thesportsdb.com/images/media/player/thumb/ofx11d1603374505.jpg",
+      "img2": "https://www.thesportsdb.com/images/media/player/render/zlkw7o1603374476.png",
+      "uniqueId": "34172821",
+      "id": 3
+    },
+    {
+      "name": "Lionel Messi",
+      "club": "Paris SG",
+      "country": "Argentina",
+      "img1": "https://www.thesportsdb.com/images/media/player/thumb/ino2iw1600892848.jpg",
+      "img2": "https://www.thesportsdb.com/images/media/player/render/16x6771630310510.png",
+      "uniqueId": "34146370",
+      "id": 4
+    },
+    {
+      "name": "Gabriel Slonina",
+      "club": "Chicago Fire",
+      "country": "USA",
+      "img1": "https://www.thesportsdb.com/images/media/player/thumb/ipb9mg1641469245.jpg",
+      "img2": null,
+      "uniqueId": "34184096",
+      "id": 5
+    }
+  ]
+}

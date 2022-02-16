@@ -1,0 +1,46 @@
+{"users": [
+    {
+        "id": 1,
+        "username": "kyleg93",
+        "password": "h20loo",
+        "cards": [
+                        {
+                "name": "Giovanni Reyna",
+                "image1": "https://d.newsweek.com/en/full/1815409/giovanni-reyna-usmnt.jpg?w=1600&h=1600&q=88&f=cb21dfa52c5d08211c50696b91dfa79e",
+                "image2": "https://as01.epimg.net/en/imagenes/2020/12/11/football/1607645941_664679_1607646173_noticia_normal_recorte1.jpg"
+            },
+            {
+                "name": "Weston McKennie",
+                "image1": "https://www.thesportsdb.com/images/media/player/thumb/k5lx3p1621545726.jpg",
+                "image2": "https://www.thesportsdb.com/images/media/player/cutout/bd47gh1632428114.png"
+            },
+            {
+                "name": "Leonardo Messi",
+                "image1": "https://cdn.vox-cdn.com/thumbor/8euwZ9X8Mp64tTAbF3AxZdb_NG4=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22657276/1322729766.jpg",
+                "image2": "https://icdn.psgtalk.com/wp-content/uploads/2021/11/lionel-messi-manchester-city-v-paris-saint-germain-group-a-uefa-champions-league-2021.jpg"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "username": "tessal93",
+        "password": "Nah68623",
+        "cards": [
+            {
+                "name": "Tyler Adams",
+                "image1": "https://cdn.ussoccer.com/-/jssmedia/project/ussf/2020-article-images/11/tatn.ashx?h=1440&la=en-US&w=1440&rev=bf8d1987e9bf4f708cd5e081877b6b9a&hash=7983D5B93DD55B98E0E53A734349C52E",
+                "image2": "https://bulinews.com/i/x/2061.jpg"
+            },
+            {
+                "name": "Ngolo Kante",
+                "image1": "https://www.vbetnews.com/wp-content/uploads/2016/06/ngolo-kante-leicester-france_3436027.jpg",
+                "image2": "https://static.standard.co.uk/2021/12/13/10/newFile-1.jpg?width=1200&width=1200&auto=webp&quality=75"
+            },
+            {
+                "name": "Christian Pulisic",
+                "image1": "https://www.si.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTg1MTM1NTI0NjgyNDA5MjQx/imago1006465195h.jpg",
+                "image2": "https://www.si.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTg1MjQ2MTc5MTQ2MDgxOTM5/christian-pulisic-mirror-shirt-mexico-usa.jpg"
+            }
+        ]
+    }
+]}
