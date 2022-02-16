@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+Kick'n'Pick'em
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+README 
+Kick'n'Pick'em is a web app which allows users to search a database of footballers(soccer) and display them on their team. When an player is searched via the Add Players tab, a card is displayed that shows that player with the option to add the player. When a user wants to view their team, they can find all the players they have added on the Team page. When a user would like to remove a player from their team, the user can remove the player on their team page by clicking the remove button at the botom of the player card. 
 
-## Available Scripts
+Both within the Add Player and Team tabs, the user can see information about the player, including club and nationality, as well as two photos of the player. 
 
-In the project directory, you can run:
+Kick'n'Pick'em uses the database https://www.thesportsdb.com/. Thanks https://www.thesportsdb.com/, we couldn't do it without you! 
 
-### `npm start`
+The project is also built on the back of React, and uses Fomantic UI styling. Thanks to both React and Fomantic teams! 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+CONTACT 
+If you have problems, questions, ideas or suggestions, please do not hesitate to reach out to me via email:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    kyle.goodwin93@gmail.com
 
-### `npm test`
+WALKTHRU
+A walkthru video for the web app can be found below:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+https://www.youtube.com/watch?v=JQjFZsGlaq0
 
-### `npm run build`
+MORE INFO 
+For more information, please refer to the below Medium post:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+https://medium.com/@kyle.goodwin93/kickn-pick-em-378e6098cf7b
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+GIT 
+To download the very lateset source off the GIT server, do this:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    git clone git@github.com:ky-leg/react-project.git
